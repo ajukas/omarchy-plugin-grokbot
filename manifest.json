@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ajukas.grokbot",
+  "name": "Grok Bot",
+  "version": "1.0.0",
+  "author": "ajukas",
+  "license": "MIT",
+  "description": "Abre ou foca o Grok Bot e mostra quando há notificações novas",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Grok Bot",
+    "description": "Abre ou foca o Grok Bot e mostra quando há notificações novas",
+    "category": "Apps",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
